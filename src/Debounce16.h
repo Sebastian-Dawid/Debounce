@@ -118,7 +118,7 @@ private:
     // ****************************************************************************
     static const uint16_t MASK_PRESS = 0x003F;       // 0b0000000000111111
     static const uint16_t PATTERN_PRESS = 0x003F;    // 0b0000000000111111
-    static const uint16_t MASK_RELEASE = 0xFC00;     // 0b1111110000000000
+    static const uint16_t MASK_RELEASE = 0xFE00;     // 0b1111110000000000
     static const uint16_t PATTERN_RELEASE = 0xFC00;  // 0b1111110000000000
     static const uint16_t PATTERN_DOWN = 0xFFFF;     // 0b1111111111111111
     static const uint16_t PATTERN_UP = 0x0000;       // 0b0000000000000000
